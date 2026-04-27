@@ -7,7 +7,7 @@ authors:
     given-names: Haoshui
   - family-names: Ma
     given-names: Yuqing
-repository-code: "https://github.com/afa-cloud/Bioinformatics-analysis-database"
+repository-code: "https://github.com/afa-cloud/escc-spatial-bulk-validation-framework"
 license: MIT
 version: "v1.0.0-submission"
 date-released: "2026-04-27"
@@ -17,4 +17,3 @@ keywords:
   - public bioinformatics
   - reproducibility
   - source tables
-
