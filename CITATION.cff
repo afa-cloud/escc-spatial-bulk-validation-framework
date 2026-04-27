@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the archived Zenodo release DOI and the associated manuscript."
+message: "If you use this code, please cite the sanitized GitHub release and the associated manuscript."
 title: "ESCC spatial-to-bulk validation framework"
 type: software
 authors:
@@ -9,8 +9,7 @@ authors:
     given-names: Yuqing
 repository-code: "https://github.com/afa-cloud/escc-spatial-bulk-validation-framework"
 license: MIT
-version: "v1.0.1-submission"
-doi: "10.5281/zenodo.19821596"
+version: "v1.0.2-submission-sanitized"
 date-released: "2026-04-27"
 keywords:
   - esophageal squamous cell carcinoma

@@ -10,11 +10,11 @@ The study is a public-data bioinformatics workflow. It applies a tiered validati
 2. bulk transcriptomic validation, and
 3. source-table reproducibility checks from published supplementary quantitative tables.
 
-The repository is intended to support code availability and reproducibility. It does not contain controlled-access data, newly generated human-subject data, manuscript drafts, reviewer notes, full-text PDFs, or temporary audit files.
+The repository is intended to support code availability and reproducibility for the public-data analyses. It does not contain controlled-access data, newly generated human-subject data, manuscript drafts, document-generation scripts, reviewer notes, full-text PDFs, or temporary audit files.
 
 ## Repository contents
 
-- `scripts/`: Python scripts used for the public-data workflow, independent patient/source-table checks, supplemental transferability analysis, package building, and audit checks.
+- `scripts/`: Python scripts used for the public-data workflow, independent patient/source-table checks, and supplemental transferability analysis.
 - `project_config.yaml`: project-level configuration and declared study scope.
 - `requirements.txt`: Python dependencies used by the submitted code package.
 - `manifests/`: public-data source manifest.
@@ -53,11 +53,13 @@ Run scripts from the repository root after reviewing `project_config.yaml` and t
 
 ## Citation
 
-Cite the archived Zenodo release DOI for the manuscript-submission version:
+Cite the sanitized public code release for the manuscript-submission version:
 
-https://doi.org/10.5281/zenodo.19821596
+https://github.com/afa-cloud/escc-spatial-bulk-validation-framework
 
-The archived release is `v1.0.1-submission`, corresponding to GitHub commit `c11d88b`.
+Release tag: `v1.0.2-submission-sanitized`.
+
+Earlier repository archives are retained only as historical snapshots. The current code-availability statement for peer review should cite the sanitized GitHub release and the submitted S2 Code package.
 
 ## License
 

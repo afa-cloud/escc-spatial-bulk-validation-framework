@@ -35,7 +35,7 @@ SCRIPTS = ROOT / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-import run_real_workflow as base  # noqa: E402
+import public_data_helpers as base  # noqa: E402
 
 
 OUT_ROOT = ROOT / "spatial_escc_workflow"

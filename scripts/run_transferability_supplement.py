@@ -41,7 +41,7 @@ CODE_OUT_DIR = OUT_ROOT / "code"
 if str(CODE_DIR) not in sys.path:
     sys.path.insert(0, str(CODE_DIR))
 
-import run_real_workflow as base  # noqa: E402
+import public_data_helpers as base  # noqa: E402
 import run_spatial_axis_deep_validation as deep  # noqa: E402
 
 

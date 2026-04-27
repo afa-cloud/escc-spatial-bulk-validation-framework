@@ -1,36 +1,11 @@
-artifact	exists	bytes	status
-manuscript\ESCC_spatial_source_table_manuscript.md	True	22298	pass
-manuscript\ESCC_spatial_source_table_manuscript.docx	True	560848	pass
-supplementary_tables\Supplementary_Tables_ESCC_spatial_source_table.xlsx	True	65608	pass
-references\references.tsv	True	3259	pass
-references\references.bib	True	5095	pass
-figures\Figure1_workflow_evidence_gate.png	True	162397	pass
-figures\Figure2_bulk_axis_association_heatmap.png	True	106081	pass
-figures\Figure3_gse53625_probe_rescue_validation.png	True	99928	pass
-figures\Figure4_spatial_source_table_evidence.png	True	125533	pass
-figures\Figure5_claim_boundary_audit.png	True	121237	pass
-figures\Figure1_workflow_evidence_gate.svg	True	1813	pass
-figures\Figure2_bulk_axis_association_heatmap.svg	True	5986	pass
-figures\Figure3_gse53625_probe_rescue_validation.svg	True	133469	pass
-figures\Figure4_spatial_source_table_evidence.svg	True	167609	pass
-figures\Figure5_claim_boundary_audit.svg	True	161881	pass
-plos_one_submission\manuscript\ESCC_spatial_source_table_PLOS_ONE_main_text.md	True	23527	pass
-plos_one_submission\manuscript\ESCC_spatial_source_table_PLOS_ONE_main_text.docx	True	46327	pass
-plos_one_submission\supporting_information\S1_Table.xlsx	True	65608	pass
-plos_one_submission\internal_review\plos_one_compliance_matrix.tsv	True	2499	pass
-plos_one_submission\internal_review\figure_technical_audit.tsv	True	1032	pass
-code\run_spatial_axis_deep_validation.py	True	46498	pass
-code\run_independent_patient_and_spatial_quant.py	True	65919	pass
-code\run_real_workflow.py	True	63274	pass
-code\build_final_submission_package.py	True	94328	pass
-code\README_code.md	True	553	pass
-code\requirements.txt	True	58	pass
-code\project_config.yaml	True	5063	pass
-project_config.yaml	True	5063	pass
-code\escc_splice_workflow\__init__.py	True	504	pass
-plos_one_submission\figures\Fig1.tif	True	511860	pass
-plos_one_submission\figures\Fig2.tif	True	483792	pass
-plos_one_submission\figures\Fig3.tif	True	307198	pass
-plos_one_submission\figures\Fig4.tif	True	305754	pass
-plos_one_submission\figures\Fig5.tif	True	308528	pass
-plos_one_submission/manuscript/ESCC_spatial_source_table_PLOS_ONE_main_text_with_inline_figures.docx	True	1257849	pass
+artifact	role	status	notes
+scripts/run_spatial_axis_deep_validation.py	core_analysis_script	pass	Public-data spatial-to-bulk axis analysis script.
+scripts/run_independent_patient_and_spatial_quant.py	core_analysis_script	pass	Independent patient and source-table quantification script.
+scripts/run_transferability_supplement.py	supplementary_analysis_script	pass	Transferability sensitivity supplement script.
+scripts/public_data_helpers.py	shared_helper	pass	Shared public-data retrieval and statistics helper functions.
+project_config.yaml	configuration	pass	Project scope and analysis configuration.
+S16_data_manifest.tsv	data_manifest	pass	Public source manifest with sanitized paths.
+README_S2_Code.md	documentation	pass	S2 Code package description.
+README_code.md	documentation	pass	Analysis script run order and scope.
+requirements.txt	environment	pass	Python package requirements for analysis scripts.
+S2_Code_manifest.json	code_manifest	pass	Sanitized submitted code manifest.
