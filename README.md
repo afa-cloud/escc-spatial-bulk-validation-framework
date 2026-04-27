@@ -21,7 +21,7 @@ The repository is intended to support code availability and reproducibility. It 
 - `supporting_information/`: submitted processed tables copied from the manuscript package.
 - `reproducibility_check.tsv`: local reproducibility/audit check summary.
 - `S2_Code_manifest.json`: manifest for the submitted code package.
-- `.zenodo.json` and `CITATION.cff`: metadata prepared for DOI archiving.
+- `.zenodo.json` and `CITATION.cff`: metadata used for DOI archiving.
 
 ## Data sources
 
@@ -53,9 +53,12 @@ Run scripts from the repository root after reviewing `project_config.yaml` and t
 
 ## Citation
 
-If this repository is archived on Zenodo, cite the archived release DOI. Until a DOI is minted, cite the GitHub release and commit hash used for the manuscript submission.
+Cite the archived Zenodo release DOI for the manuscript-submission version:
+
+https://doi.org/10.5281/zenodo.19821596
+
+The archived release is `v1.0.1-submission`, corresponding to GitHub commit `c11d88b`.
 
 ## License
 
 Code in this repository is released under the MIT License. Third-party datasets remain governed by the terms of their original repositories and publications.
-
