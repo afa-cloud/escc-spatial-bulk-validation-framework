@@ -2,10 +2,10 @@
 
 ## Superseded repository
 
-This repository is superseded and is not the code archive cited by the manuscript submission. The current sanitized code release is available at:
+This repository is superseded and is not the code archive cited by the manuscript submission. Do not cite this repository or its historical DOI for the current submission. The current code release is available at:
 
 - GitHub: https://github.com/afa-cloud/escc-spatial-bulk-validation-framework-code
-- Zenodo DOI: https://doi.org/10.5281/zenodo.19826729
+- Zenodo DOI: https://doi.org/10.5281/zenodo.19830116
 
 This repository is retained only as a historical archive.
 
@@ -62,13 +62,17 @@ Run scripts from the repository root after reviewing `project_config.yaml` and t
 
 ## Citation
 
-Cite the sanitized public code release for the manuscript-submission version:
+Cite the current public code release for the manuscript-submission version:
 
-https://github.com/afa-cloud/escc-spatial-bulk-validation-framework
+https://github.com/afa-cloud/escc-spatial-bulk-validation-framework-code
 
-Release tag: `v1.0.2-submission-sanitized`.
+Release tag: `v1.0.4-submission-polished`.
 
-Earlier repository archives are retained only as historical snapshots. The current code-availability statement for peer review should cite the sanitized GitHub release and the submitted S2 Code package.
+Release commit: `03ea3b7ce1e926c9830be466f8f1fe4cf4ae4df6`.
+
+Zenodo DOI: `10.5281/zenodo.19830116`.
+
+Earlier repository archives and older DOI records are retained only as historical snapshots and should not be used for peer review citation. The current code-availability statement should cite the current GitHub release, Zenodo DOI and submitted S2 Code package.
 
 ## License
 
