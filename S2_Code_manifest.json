@@ -1,0 +1,19 @@
+{
+  "build_time": "2026-04-27T13:05:19",
+  "purpose": "Supplementary code package for checked PLOS ONE submission with transferability supplement",
+  "included_files": [
+    "README_S2_Code.md",
+    "README_code.md",
+    "S16_data_manifest.tsv",
+    "project_config.yaml",
+    "reproducibility_check.tsv",
+    "requirements.txt",
+    "scripts/assemble_plos_one_checked_submission.py",
+    "scripts/audit_clean_plos_upload.py",
+    "scripts/build_final_submission_package.py",
+    "scripts/build_plos_final_technical_revision.py",
+    "scripts/run_independent_patient_and_spatial_quant.py",
+    "scripts/run_spatial_axis_deep_validation.py",
+    "scripts/run_transferability_supplement.py"
+  ]
+}
