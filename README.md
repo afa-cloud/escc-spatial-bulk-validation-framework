@@ -1,5 +1,14 @@
 # ESCC spatial-to-bulk validation framework
 
+## Superseded repository
+
+This repository is superseded and is not the code archive cited by the manuscript submission. The current sanitized code release is available at:
+
+- GitHub: https://github.com/afa-cloud/escc-spatial-bulk-validation-framework-code
+- Zenodo DOI: https://doi.org/10.5281/zenodo.19826729
+
+This repository is retained only as a historical archive.
+
 This repository contains the analysis code and reproducibility materials for the manuscript:
 
 **A tiered spatial-to-bulk validation framework demonstrates a reproducible CAF/ECM stromal-remodeling phenotype in esophageal squamous cell carcinoma**
