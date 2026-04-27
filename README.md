@@ -19,7 +19,7 @@ The study is a public-data bioinformatics workflow. It applies a tiered validati
 2. bulk transcriptomic validation, and
 3. source-table reproducibility checks from published supplementary quantitative tables.
 
-The repository is intended to support code availability and reproducibility for the public-data analyses. It does not contain controlled-access data, newly generated human-subject data, manuscript drafts, document-generation scripts, reviewer notes, full-text PDFs, or temporary audit files.
+The repository is intended to support code availability and reproducibility for the public-data analyses. It does not contain controlled-access data, newly generated human-subject data, manuscript drafts, document-generation scripts, reviewer notes, full-text PDFs, or temporary review files.
 
 ## Repository contents
 
