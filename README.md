@@ -5,7 +5,7 @@
 This repository is superseded and is not the code archive cited by the manuscript submission. Do not cite this repository or its historical DOI for the current submission. The current code release is available at:
 
 - GitHub: https://github.com/afa-cloud/escc-spatial-bulk-validation-framework-code
-- Zenodo DOI: https://doi.org/10.5281/zenodo.19831709
+- Zenodo DOI: https://doi.org/10.5281/zenodo.19860726
 
 This repository is retained only as a historical archive.
 
@@ -66,11 +66,11 @@ Cite the current public code release for the manuscript-submission version:
 
 https://github.com/afa-cloud/escc-spatial-bulk-validation-framework-code
 
-Release tag: `v1.0.9-submission-cleanlabels`.
+Release tag: `v1.0.10-submission-consistency`.
 
-Release commit: `64f15e8db07712748f4dd989cc39b7078e897550`.
+Release commit: `9ddc5d6854442b8ecc74d98af95f112c291bce31`.
 
-Zenodo DOI: `10.5281/zenodo.19831709`.
+Zenodo DOI: `10.5281/zenodo.19860726`.
 
 Earlier repository archives and older DOI records are retained only as historical snapshots and should not be used for peer review citation. The current code-availability statement should cite the current GitHub release, Zenodo DOI and submitted S2 Code package.
 
